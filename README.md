@@ -1,2 +1,2 @@
 # Projects
-All the cool projects I do
+All the cool projects from me. 
