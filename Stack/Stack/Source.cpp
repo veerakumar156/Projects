@@ -8,6 +8,6 @@
 int main()
 {
 	CStack Stack; 
-
+	Stack.Push();
 	return 0;
 }
