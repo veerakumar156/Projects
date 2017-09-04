@@ -7,6 +7,7 @@
 
 int main()
 {
+	CStack Stack; 
 
 	return 0;
 }
