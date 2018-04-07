@@ -1,0 +1,15 @@
+Create a thread safe collection that stores account balances.
+There are 10,000 accounts with account numbers 1-10000.  All accounts have a 
+starting balance of 1000.
+Exercise this collection with this activity.
+Create 3 threads:
+1.	The debit thread will randomly choose an account and record a debit transaction with a 
+random amount between 50-200.  Debits should occur 50 times per second.
+2.	The credit thread will randomly choose an account and record a credit transaction with a 
+random amount between 100-400.  Credits should occur 100 times per second.
+3.	The analysis thread will calculate the account balance and average across all accounts 
+every second.  No new transactions can be recorded while the analysis is taking place. 
+
+The program will stop when the average balance in the accounts reaches 1100 or 2 minutes have 
+passed.  When the program stops, find the account with the highest balance and print out the 
+transaction history (record of all the debits and credits). 
