@@ -1,0 +1,35 @@
+The account number is: 2592
+The balance in the account is: 8583.66
+The transactions on this account are :
+Transaction type Credit	Transaction amount: 340.749
+Transaction type Debit	Transaction amount: 85.5301
+Transaction type Credit	Transaction amount: 212.116
+Transaction type Credit	Transaction amount: 367.674
+Transaction type Credit	Transaction amount: 123.105
+Transaction type Debit	Transaction amount: 129.784
+Transaction type Credit	Transaction amount: 393.032
+Transaction type Credit	Transaction amount: 235.921
+Transaction type Credit	Transaction amount: 266.831
+Transaction type Credit	Transaction amount: 360.618
+Transaction type Credit	Transaction amount: 366.312
+Transaction type Credit	Transaction amount: 169.853
+Transaction type Credit	Transaction amount: 309.89
+Transaction type Credit	Transaction amount: 309.341
+Transaction type Credit	Transaction amount: 315.99
+Transaction type Credit	Transaction amount: 346.022
+Transaction type Credit	Transaction amount: 346.846
+Transaction type Credit	Transaction amount: 152.298
+Transaction type Credit	Transaction amount: 294.311
+Transaction type Credit	Transaction amount: 276.318
+Transaction type Credit	Transaction amount: 270.176
+Transaction type Credit	Transaction amount: 259.265
+Transaction type Credit	Transaction amount: 128.12
+Transaction type Debit	Transaction amount: 148.538
+Transaction type Credit	Transaction amount: 155.672
+Transaction type Credit	Transaction amount: 339.998
+Transaction type Credit	Transaction amount: 330.441
+Transaction type Credit	Transaction amount: 313.423
+Transaction type Credit	Transaction amount: 156.835
+Transaction type Credit	Transaction amount: 346.559
+Transaction type Credit	Transaction amount: 316.767
+Transaction type Credit	Transaction amount: 143.032
