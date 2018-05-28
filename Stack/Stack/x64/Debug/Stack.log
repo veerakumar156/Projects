@@ -1,0 +1,5 @@
+﻿  Stack.cpp
+c:\users\danie\documents\veera\github\projects\stack\stack\stack.cpp(11): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+c:\users\danie\documents\veera\github\projects\stack\stack\stack.cpp(11): warning C4154: deletion of an array expression; conversion to pointer supplied
+  Stack.vcxproj -> C:\Users\Danie\Documents\Veera\GitHub\Projects\Stack\x64\Debug\Stack.exe
+  Stack.vcxproj -> C:\Users\Danie\Documents\Veera\GitHub\Projects\Stack\x64\Debug\Stack.pdb (Partial PDB)

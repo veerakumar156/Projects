@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  writetelemetry.cpp
+writetelemetry.cpp(10): warning C4018: '<': signed/unsigned mismatch
+  telemeterdata.cpp
+telemeterdata.cpp(31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+telemeterdata.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+telemeterdata.cpp(45): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+telemeterdata.cpp(121): warning C4018: '<': signed/unsigned mismatch
+  readtelemetry.cpp
+  source.cpp
+  Generating code
+  All 627 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  telemetry.vcxproj -> C:\D\Users\Documents\Learning\C++\telemetry\Release\telemetry.exe

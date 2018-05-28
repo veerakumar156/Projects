@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  source.cpp
+  readtelemetry.cpp
+  telemeterdata.cpp
+c:\d\users\documents\learning\c++\telemetry\telemetry\telemeterdata.cpp(31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\d\users\documents\learning\c++\telemetry\telemetry\telemeterdata.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\d\users\documents\learning\c++\telemetry\telemetry\telemeterdata.cpp(45): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  writetelemetry.cpp
+  Generating Code...
+  telemetry.vcxproj -> C:\D\Users\Documents\Learning\C++\telemetry\x64\Debug\telemetry.lib

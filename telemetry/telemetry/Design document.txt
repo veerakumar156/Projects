@@ -1,0 +1,47 @@
+Software design:
+
+1. This project involves three key tasks a) Reading the telemetry file 2) performing anomaly detections and averages 
+   3) writing these averages along with anomaly detections into an output log 
+   
+2. These three key tasks are divided into three major classes to make them individually testable. They are 
+   a. CReadtelemetry  b. CTelemeterData    c. CWritetelemetry
+   
+3. In present design, all the data are stored in CTelemeterData. The operations such as anomaly detections and averages
+   calculations are done on the same class. Provided more time, I would improve the design by having a class called 
+   CTelemetredDataEntry containing various entries such as power, voltage, current their averages and anomalies. This
+   further decouples the actual data from the class that is operating on them 
+   
+   class CTelemeterData 
+   {
+		public:
+		   ....
+		private:
+			vector<CTelemetredDataEntry> entries; 
+			
+    }
+	
+	class CTelemetredDataEntry
+	{
+		private:
+			string timestamp;
+			float power; 
+			float voltage; 
+			float current; 
+			float averagepower; 
+			float averagevoltage; 
+			float averagecurrent; 
+			bool poweranomaly; 
+			bool voltagenomaly;
+			bool currentanomaly;	
+	}
+	
+4. Smart pointers are used throughout the telemetry project to prevent accidental memory leaks. Data copying is prevented by keeping the data encapsulated 
+   within CReadtelemetry class. Other classes will get only a shared pointer to this data. 
+	
+	
+4. Simple tests are writtten to test empty input file, valid input file, output log file, verify average calculations and anomaly detections. The 
+   input file 'telemetry.txt' is used for the tests as well. 
+   
+   
+5. Telemetry project is created as static lib for the purpose of test_telemetry project. The telemetry project can be changed to 
+   standalone Win32 console application which produces the output file 'output.txt'.

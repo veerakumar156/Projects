@@ -1,0 +1,17 @@
+﻿  stdafx.cpp
+  unittest1.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library C:\D\Users\Documents\Learning\C++\telemetry\Release\test_telemetry.lib and object C:\D\Users\Documents\Learning\C++\telemetry\Release\test_telemetry.exp
+unittest1.obj : error LNK2001: unresolved external symbol "public: void __thiscall CReadtelemetry::ReadInputFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?ReadInputFile@CReadtelemetry@@QAEXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: class std::shared_ptr<class CTelemeterData> __thiscall CReadtelemetry::GetData(void)" (?GetData@CReadtelemetry@@QAE?AV?$shared_ptr@VCTelemeterData@@@std@@XZ)
+unittest1.obj : error LNK2001: unresolved external symbol "public: void __thiscall CTelemeterData::PerformAnamolyDetections(void)" (?PerformAnamolyDetections@CTelemeterData@@QAEXXZ)
+unittest1.obj : error LNK2001: unresolved external symbol "public: void __thiscall CTelemeterData::PerformAverageCalculations(unsigned int const &)" (?PerformAverageCalculations@CTelemeterData@@QAEXABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: void __thiscall CWritetelemetry::WriteOutputFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,class std::shared_ptr<class CTelemeterData> &,unsigned int const &)" (?WriteOutputFile@CWritetelemetry@@QAEXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAV?$shared_ptr@VCTelemeterData@@@3@ABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CTelemeterData::IsTimeAnomaly(unsigned int const &)" (?IsTimeAnomaly@CTelemeterData@@QAE_NABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CTelemeterData::IsPowerAnomaly(unsigned int const &)" (?IsPowerAnomaly@CTelemeterData@@QAE_NABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CTelemeterData::IsVoltageAnomaly(unsigned int const &)" (?IsVoltageAnomaly@CTelemeterData@@QAE_NABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: bool __thiscall CTelemeterData::IsCurrentAnomaly(unsigned int const &)" (?IsCurrentAnomaly@CTelemeterData@@QAE_NABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: float __thiscall CTelemeterData::GetPowerAverage(unsigned int const &)" (?GetPowerAverage@CTelemeterData@@QAEMABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: float __thiscall CTelemeterData::GetVoltageAverage(unsigned int const &)" (?GetVoltageAverage@CTelemeterData@@QAEMABI@Z)
+unittest1.obj : error LNK2001: unresolved external symbol "public: float __thiscall CTelemeterData::GetCurrentAverage(unsigned int const &)" (?GetCurrentAverage@CTelemeterData@@QAEMABI@Z)
+C:\D\Users\Documents\Learning\C++\telemetry\Release\test_telemetry.dll : fatal error LNK1120: 12 unresolved externals

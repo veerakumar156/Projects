@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch (Windows)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/source.exe",
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGw\\bin\\gdb.exe",
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "externalConsole": false,
+            "visualizerFile": "${workspaceRoot}/my.natvis"
+        }
+        
+    ], 
+
+    "preLaunchTask": "build hello world"
+
+}

@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  Stack.cpp
+  Source.cpp
+  Generating Code...
+c:\users\danie\documents\veera\github\projects\stack\stack\stack.cpp(38): warning C4715: 'CStack::Pop': not all control paths return a value
+  Stack.vcxproj -> C:\Users\Danie\Documents\Veera\GitHub\Projects\Stack\Debug\Stack.exe
+  Stack.vcxproj -> C:\Users\Danie\Documents\Veera\GitHub\Projects\Stack\Debug\Stack.pdb (Partial PDB)
