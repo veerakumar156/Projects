@@ -1,0 +1,12 @@
+Run 'process_regex.py' for solution without stretch goal.i.e. list of subdirectory names and their regular expression matches 
+will be printed in standard output 
+
+Run 'process_regex_with_graph.py' for solution including stretch goal.i.e. graph will be drawn for list of subdirectory names 
+and their regular expression matches. 
+Note: Run the following command to install Matplotlib package before running the script with graph.
+	 pip install matplotlib 
+	 
+	 
+
+
+ 

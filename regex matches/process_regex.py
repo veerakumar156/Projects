@@ -80,29 +80,10 @@ def search_for_regular_expressions(valid_root_path, keyword):
 
 	for k,v in regex_matches.items():
 		print k,'\t\t',v
-	return regex_matches
-
-	if not regex_matches:
-		return 
-	x = []
-	y = []
-	
-	for k,v in regex_matches.items():
-		head, tail = os.path.split(os.path.split(k)[-1])
-		x.append(tail)
-		y.append(v)
-
-	plt.plot(x, y, color='green', linestyle='dashed', linewidth = 3,
-			 marker='o', markerfacecolor='blue', markersize=12)
-	plt.xlabel('Names of sub directories')
-	plt.ylabel('Regex match count')
-	plt.title('Subdirectories vs Regex matches')
-	plt.show()
-		
 		
 def main(currentfile,root_dir, keyword):
 	valid_root_path = validate_inputs(root_dir, keyword)
-	regex_matches = search_for_regular_expressions(valid_root_path, keyword)
+	search_for_regular_expressions(valid_root_path, keyword)
 
 if __name__== "__main__":
 	if len(sys.argv) != 3:
