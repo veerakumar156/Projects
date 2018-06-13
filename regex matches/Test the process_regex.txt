@@ -1,0 +1,44 @@
+
+The following are the key features or sections to be tested
+
+1. Validate the input parameters
+	a. Program is expected to print the correct form of usage if it is incorrectly used. 
+	   Input:  python process_regex.py "123"
+	   Expected output: 
+				Usage:
+								python process_regex.py <root_dir> <keyword>
+								Examples : python process_regex.py "." ".*"
+										 : python process_regex.py C:\Users\Public .*
+				Requires two input arguments
+				<root_dir> - directory in which the search should be done
+				<keyword> - regular expression to be used for the search
+	
+	b. The program should have been written to handle the incorrect number of parameters and the type 
+	   of parameters. The test should verify these cases. Program expects two inputs, root directory
+	   and keyword. Hence, the test should cover if the program handles less or more than two inputs.
+	   Input:  python process_regex.py "123"
+	   Expected output: usage is printed
+	
+	c. The order of input parameters should also be verified. If the root directory is provided after 
+	   the regular expression, the program should handle that. Similarly, any invalid or non-existent
+	   directory names should be handled. 
+	   Input:  python process_regex.py ".*" C:\Users\Danie\Documents\Veera\J
+	   Expected output: Enter a valid directory name
+	   
+	d. When a invalid regular expression is provided, the program should specify the user to enter a valid 
+	   regular expression. 
+	   Input:  python process_regex.py "." "["
+	   Expected output: Enter a valid regular expression
+
+
+2. 	Test the basic output
+	a. Create a few set of folders inside a subfolder. 
+	b. Place the same file inside all the subfolders and the main folder
+	c. Run the script and observe that the same number of matches are reported in all the different subfolders
+	d. Repeat the above steps with different number of subfolders and different number of files in the root directory
+
+3.  Observe that the application doesn't crash if run at the same time from multiple terminals.    
+    
+4.  Verify that the application is running in various operating systems such as Windows, Linux, Mac
+
+5.  Verify that the application is not showing a plot if it did not find any regular expression matches in the search

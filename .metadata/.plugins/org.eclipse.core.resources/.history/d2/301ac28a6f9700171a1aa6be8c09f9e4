@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+
+
+/**
+ * @author Veerakumar
+ *
+ */
+public class CProcessLinkedList {
+
+	private static CLinkedList list;
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		list = new CLinkedList(); 
+	}
+
+}

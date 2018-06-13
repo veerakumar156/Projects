@@ -1,0 +1,16 @@
+
+
+public class CStack {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CStack stack = new CStack();
+		System.out.println("Veera is a developer");
+
+	}
+	
+	
+	double dArray[];
+	int head; 
+
+}

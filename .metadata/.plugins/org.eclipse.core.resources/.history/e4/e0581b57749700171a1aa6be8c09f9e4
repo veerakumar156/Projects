@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+
+
+/**
+ * @author Veerakumar
+ *
+ */
+public class ProcessLinkedList {
+
+	private static LinkedList list;
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		list = new LinkedList(); 
+		int[] arr = {1, 5, 2, 13, 7, 3};
+		for (int i: arr)
+			list.addNode(i); 
+	}
+
+}

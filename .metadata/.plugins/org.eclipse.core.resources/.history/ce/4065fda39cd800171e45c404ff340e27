@@ -1,0 +1,88 @@
+
+public class Tree {
+
+	public static void main(String[] args) {
+	    
+		Tree Tr = new Tree(); 
+		Tr.PopulateTreeDefault();
+        
+	}
+	
+	
+	
+	public class Node{
+		int data;
+		Node left; 
+		Node right; 
+		boolean visited; 
+		
+		Node(int data)
+		{
+			this.data = data; 
+			this.left = null; 
+			this.right = null; 
+			visited = false; 
+		}
+		
+		Node()
+		{
+			this.data = 0; 
+			this.left = null; 
+			this.right = null; 
+			visited = false; 
+		}
+	}
+	
+	public Node root; 
+	public Tree()
+	{
+			root = new Node(); 
+    }
+
+		public void PopulateTreeDefault() {
+			int start = 5; 
+			AddNode(start);
+			for (int i = 1; i < start; i--)
+			{
+				AddNode(start+i);
+				AddNode(start-1); 
+			}   
+		}
+		
+		public void AddNode(int data)
+		{
+			Node newNode = new Node(data);
+			if (root == null)
+			{
+				root = newNode; 
+				return; 
+			}
+			else 
+			{
+				Node current = root; 
+				Node parent =  null;
+				while(current != null)
+				{
+					parent = current; 
+					if (data < current.data)
+					{
+						current = current.left;
+					}
+					else 
+					{
+						current = current.right; 
+					}
+				}
+				
+				if (parent.data < data)
+					parent.right = newNode; 
+				else 
+					parent.left = newNode; 
+				
+			}
+		}
+	}
+	
+	
+
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Danie\Documents\Veera\GitHub\Projects\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4156821378.index
+320025452.index
+975968297.index
+3066882854.index
+150093086.index
+1841750452.index
+392405132.index

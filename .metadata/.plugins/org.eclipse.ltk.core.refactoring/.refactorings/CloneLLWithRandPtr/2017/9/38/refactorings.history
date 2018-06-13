@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;n&apos; in &apos;CloneLL.LinkedList.FirstStep()&apos; to &apos;current&apos;&#x0D;&#x0A;- Original project: &apos;CloneLLWithRandPtr&apos;&#x0D;&#x0A;- Original element: &apos;CloneLL.LinkedList.FirstStep().n&apos;&#x0D;&#x0A;- Renamed element: &apos;n&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;n&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{CloneLL.java[CloneLL[LinkedList~FirstStep@n!686!699!691!691!QNode;!0!false" name="current" references="true" stamp="1505878231441" version="1.0"/>
+</session>

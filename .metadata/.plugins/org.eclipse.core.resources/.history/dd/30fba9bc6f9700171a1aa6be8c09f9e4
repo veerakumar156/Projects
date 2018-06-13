@@ -1,0 +1,6 @@
+
+public class CLinkedList {
+	
+	public int data;
+	CLinkedList pNext;	
+}

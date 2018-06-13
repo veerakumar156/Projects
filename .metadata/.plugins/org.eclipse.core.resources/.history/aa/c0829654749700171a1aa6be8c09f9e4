@@ -1,0 +1,16 @@
+
+public class LinkedList {
+	
+	public Node headNode; 
+
+	public void addNode(int data) {
+		// TODO Auto-generated method stub
+		headNode.appendToTail(data);
+	}
+
+	public void printList() {
+		// TODO Auto-generated method stub
+		
+	}	
+		
+}

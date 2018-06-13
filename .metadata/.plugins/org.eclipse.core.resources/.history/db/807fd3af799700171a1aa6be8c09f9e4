@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+/**
+ * 
+ */
+
+
+/**
+ * @author Veerakumar
+ *
+ */
+public class ProcessLinkedList {
+
+
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList(); 
+		int[] arr = {1, 5, 2, 13, 7, 3};
+		ArrayList<int[]> arrList = new ArrayList<int[]>();
+		arrList.add(arr);
+		arrList.sort(null);
+		for (int i: arr)
+			list.addNode(i); 
+		
+		list.printList();
+	}
+
+}

@@ -1,0 +1,35 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
+/**
+ * 
+ */
+
+
+/**
+ * @author Veerakumar
+ *
+ */
+public class ProcessLinkedList {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> arrList = new ArrayList<Integer>();
+		arrList.add(15);
+		arrList.add(10);
+		arrList.add(1);
+		arrList.add(5);
+		arrList.add(3);
+		arrList.add(8);
+		Collections.sort(arrList, (a, b) -> a.compareTo(b));
+		LinkedList list = new LinkedList(); 
+		for (int i: arrList) {
+			list.addNode(i); 
+		}
+		
+		list.printList();
+	}
+
+}

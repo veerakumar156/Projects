@@ -1,0 +1,26 @@
+
+public class LinkedList {
+	
+	public Node headNode; 
+	
+	public LinkedList() {
+		
+	}
+
+	public void addNode(int data) {
+		// TODO Auto-generated method stub
+		headNode.appendToTail(data);
+	}
+
+	public void printList() {
+		// TODO Auto-generated method stub
+		Node n = headNode;
+		System.out.println("The elements in the linked list are: ");
+		while (n.next != null)
+		{
+			System.out.println(headNode.data);
+			n = headNode.next;
+		}
+	}	
+		
+}

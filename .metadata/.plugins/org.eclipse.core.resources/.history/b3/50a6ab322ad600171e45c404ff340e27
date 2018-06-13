@@ -1,0 +1,33 @@
+
+public class Tree {
+
+	public TreeNode Tr;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 0;
+		TreeNode Tr = new TreeNode(i);
+		Tr.PopulateTree();
+	}
+
+	class TreeNode{
+		Node root; 
+		
+		TreeNode TreeNode(int data)
+		{
+			root = new Node();
+		}
+		
+		class Node{
+			int data;
+			boolean visited;
+			Node Left;
+			Node Right;
+		}
+
+		public void PopulateTree() {
+			// TODO Auto-generated method stub
+			
+		}
+	}
+}

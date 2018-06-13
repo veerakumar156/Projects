@@ -1,0 +1,31 @@
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collections;
+
+/**
+ * 
+ */
+
+
+/**
+ * @author Veerakumar
+ *
+ */
+public class ProcessLinkedList {
+
+
+	private static final Collection Integer = null;
+
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList(); 
+		ArrayList<Integer> arrList = new ArrayList<Integer>();
+		arrList.add(1);
+		arrList.add(1);
+		Collections.sort(arrList, (a, b) -> b.compareTo(a));
+		for (int i: arrList)
+			list.addNode(i); 
+		
+		list.printList();
+	}
+
+}

@@ -1,0 +1,28 @@
+
+public class LinkedList {
+	
+	public Node headNode = null; 
+	
+	public LinkedList() {
+		headNode = new Node(0);
+	}
+	
+	public LinkedList(int d) {
+		headNode = new Node(d);
+	}
+	
+	public void addNode(int data) {
+		headNode.appendToTail(data);
+	}
+
+	public void printList() {
+		Node n = headNode;
+		System.out.println("The elements in the linked list are: ");
+		while (n.next != null)
+		{
+			System.out.println(headNode.data);
+			n = headNode.next;
+		}
+	}	
+		
+}
